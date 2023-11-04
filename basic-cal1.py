@@ -21,8 +21,6 @@ total_row = tiles // row
 remain_tiles = tiles % row
 
 
-#print(total_row,remain_tiles)
-
 buy_more = row - remain_tiles
 
 print(f'มีกระเบื้องทั้งหมด: {tiles} แผ่น')
