@@ -1,0 +1,30 @@
+Python 3.11.5 (tags/v3.11.5:cce6ba9, Aug 24 2023, 14:38:34) [MSC v.1936 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> name = 'rich'
+>>> lastname = 'krittinatthanachai'
+>>> fullname = name + ' ' + lastname
+>>> print (fullname)
+rich krittinatthanachai
+>>> type(name)
+<class 'str'>
+>>> age = 10
+>>> type(age)
+<class 'int'>
+>>> name.upper()
+'RICH'
+>>> name.lower()
+'rich'
+>>> print(name)
+rich
+>>> number = '1'
+>>> number.zfill(5)
+'00001'
+>>> number = '6'
+>>> number.zfill(5)
+'00006'
+>>> number.zfill(7)
+'0000006'
+>>> print('ลุงครับผมชื่อ{} นามสกุล{} อายุ {} ขวบ'.format(name,lastname,age))
+ลุงครับผมชื่อrich นามสกุลkrittinatthanachai อายุ 10 ขวบ
+>>> print(f'ลุงครับผมชื่อ{name} นามสกุล{lastname} อายุ {age} ขวบ')
+ลุงครับผมชื่อrich นามสกุลkrittinatthanachai อายุ 10 ขวบ
